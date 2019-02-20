@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pxp",
+    "ppp",
+    " p "
+  ],
+  "key": {
+    "x": {
+
+      "tag": "jafmores:ingot"
+    },
+    "p": {
+
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield"
+  }
+}

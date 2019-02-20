@@ -1,0 +1,10 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "tag": "jafmores:ores/salt"
+  },
+  "result": "jafmores:salt_item",
+  "experience": 0.3,
+  "cookingtime": 200,
+  "count": 3
+}

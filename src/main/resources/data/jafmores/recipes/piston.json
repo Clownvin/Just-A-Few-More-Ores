@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "cxc",
+    "crc"
+  ],
+  "key": {
+    "x": {
+
+      "tag": "jafmores:ingot"
+    },
+    "r": {
+
+      "tag": "forge:dusts/redstone"
+    },
+    "p": {
+
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "tag": "forge:cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston"
+  }
+}

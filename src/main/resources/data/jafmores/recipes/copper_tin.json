@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "jafmores:ores/copper"
+    },
+    {
+      "tag": "jafmores:ores/tin"
+    }
+  ],
+  "result":
+  {
+    "item": "jafmores:copper_tin_item",
+    "count": 1
+  }
+}

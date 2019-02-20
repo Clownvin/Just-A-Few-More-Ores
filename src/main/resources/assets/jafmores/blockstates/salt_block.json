@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "jafmores:block/salt_block" }
+    }
+}

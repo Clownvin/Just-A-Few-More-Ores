@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "xcx",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingot"
+    },
+    "c": {
+      "tag": "forge:chests"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper"
+  }
+}

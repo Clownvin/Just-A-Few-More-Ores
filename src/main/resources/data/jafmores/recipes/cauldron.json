@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:cauldron"
+  }
+}

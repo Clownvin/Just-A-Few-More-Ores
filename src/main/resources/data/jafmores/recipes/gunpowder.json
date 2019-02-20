@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "jafmores:dusts/sulfur"
+    },
+    {
+      "tag": "jafmores:dusts/sulfur"
+    },
+    {
+      "tag": "jafmores:dusts/sulfur"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "jafmores:blocks/bronze"
+    }
+  ],
+  "result": {
+    "item": "jafmores:bronze_ingot",
+    "count": 9
+  }
+}

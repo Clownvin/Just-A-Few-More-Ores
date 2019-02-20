@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingots/mithril"
+    }
+  },
+  "result": {
+    "item": "jafmores:mithril_legs"
+  }
+}

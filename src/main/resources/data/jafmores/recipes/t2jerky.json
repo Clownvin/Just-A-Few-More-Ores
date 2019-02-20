@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "sms",
+    " s "
+  ],
+  "key": {
+    "s": {
+      "tag": "jafmores:dusts/salt"
+    },
+    "m": {
+
+      "tag": "jafmores:t2_meat"
+    }
+  },
+  "result": {
+    "item": "jafmores:jerky",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "tag": "jafmores:ores/mithril"
+  },
+  "result": "jafmores:mithril_ingot",
+  "experience": 0.9,
+  "cookingtime": 200
+}

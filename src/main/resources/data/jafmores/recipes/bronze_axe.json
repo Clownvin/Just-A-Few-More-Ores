@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "xd ",
+    " d "
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingots/bronze"
+    },
+    "d": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "jafmores:bronze_axe"
+  }
+}

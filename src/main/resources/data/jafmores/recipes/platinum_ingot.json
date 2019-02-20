@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "tag": "jafmores:ores/platinum"
+  },
+  "result": "jafmores:platinum_ingot",
+  "experience": 1.5,
+  "cookingtime": 200
+}

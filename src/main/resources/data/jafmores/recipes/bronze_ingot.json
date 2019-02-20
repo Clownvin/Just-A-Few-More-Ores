@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "jafmores:copper_tin_item"
+  },
+  "result": "jafmores:bronze_ingot",
+  "experience": 0.5,
+  "cookingtime": 200
+}

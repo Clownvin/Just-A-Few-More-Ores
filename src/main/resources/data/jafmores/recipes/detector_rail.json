@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "xpx",
+    "xrx"
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingot"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "p": {
+      "item": "minecraft:stone_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 6
+  }
+}

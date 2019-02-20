@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "jafmores:black_diamond_ore"
+  },
+  "result": "jafmores:black_diamond_item",
+  "experience": 1.5,
+  "cookingtime": 200
+}

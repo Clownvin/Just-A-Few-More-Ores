@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    " d ",
+    " d "
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:gems/black_diamond"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "jafmores:black_diamond_hoe"
+  }
+}

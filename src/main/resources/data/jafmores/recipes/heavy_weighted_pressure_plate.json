@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:heavy_weighted_pressure_plate"
+  }
+}

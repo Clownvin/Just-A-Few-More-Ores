@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:gems/black_diamond"
+    }
+  },
+  "result": {
+    "item": "jafmores:black_diamond_helmet"
+  }
+}

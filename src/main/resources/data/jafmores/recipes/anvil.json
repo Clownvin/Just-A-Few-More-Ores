@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    " x ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingot"
+    },
+    "b": {
+      "tag": "jafmores:metal_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil"
+  }
+}

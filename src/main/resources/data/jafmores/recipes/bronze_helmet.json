@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingots/bronze"
+    }
+  },
+  "result": {
+    "item": "jafmores:bronze_helmet"
+  }
+}

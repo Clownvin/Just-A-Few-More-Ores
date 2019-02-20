@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[24,]"
+issueTrackerURL="https://github.com/Clownvin/Just-A-Few-More-Ores/issues"
+displayURL="https://minecraft.curseforge.com/projects/just-a-few-more-ores"
+logoFile="logo.png"
+
+[[mods]]
+    modId="jafmores"
+    version="${file.jarVersion}"
+    displayName="Just A Few More Ores"
+    authors="Clownvin"
+    credits="Clownvin, pixelgear_"
+    description='''
+    A simple mod that makes delving into Minecraft's depth worthwhile again by adding just a few more ores.
+    '''

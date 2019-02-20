@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xrx",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "tag": "jafmores:ingot"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:compass"
+  }
+}

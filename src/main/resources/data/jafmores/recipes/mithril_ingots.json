@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "jafmores:blocks/mithril"
+    }
+  ],
+  "result": {
+    "item": "jafmores:mithril_ingot",
+    "count": 9
+  }
+}

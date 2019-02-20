@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+
+      "tag": "jafmores:blocks/salt"
+    }
+  ],
+  "result": {
+    "item": "jafmores:salt_item",
+    "count": 9
+  }
+}

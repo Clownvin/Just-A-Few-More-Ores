@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+
+      "tag": "jafmores:blocks/platinum"
+    }
+  ],
+  "result": {
+    "item": "jafmores:platinum_ingot",
+    "count": 9
+  }
+}

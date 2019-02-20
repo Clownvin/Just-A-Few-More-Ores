@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+
+      "tag": "jafmores:ingots/mithril"
+    }
+  },
+  "result": {
+    "item": "jafmores:mithril_chestplate"
+  }
+}
