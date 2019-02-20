@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "sulfur"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "sulfur"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "sulfur"
+    },
+    {
+      "item": "minecraft:coal",
+      "data": 1
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 1
+  }
+}

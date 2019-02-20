@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "earthenbounty:items/black_diamond_hoe"
+    }
+}

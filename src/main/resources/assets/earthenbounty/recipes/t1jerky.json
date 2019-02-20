@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "salt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "salt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "salt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "salt"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "t1meat"
+    }
+  ],
+  "result": {
+    "item": "earthenbounty:jerky",
+    "count": 3
+  }
+}

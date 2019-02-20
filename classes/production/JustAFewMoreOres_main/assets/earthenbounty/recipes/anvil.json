@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    " x ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "ironIngotReplacement"
+    },
+    "b": {
+      "type": "forge:ore_dict",
+      "ore": "ironBlockReplacement"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "data": 0
+  }
+}

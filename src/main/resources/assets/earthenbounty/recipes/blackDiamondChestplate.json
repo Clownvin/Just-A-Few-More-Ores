@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "gemBlackDiamond"
+    }
+  },
+  "result": {
+    "item": "earthenbounty:black_diamond_chestplate"
+  }
+}

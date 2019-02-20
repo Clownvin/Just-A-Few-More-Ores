@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    " d ",
+    " d "
+  ],
+  "key": {
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "gemBlackDiamond"
+    },
+    "d": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    }
+  },
+  "result": {
+    "item": "earthenbounty:black_diamond_pickaxe"
+  }
+}

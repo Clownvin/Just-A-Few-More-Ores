@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "blockBronze"
+    }
+  ],
+  "result": {
+    "item": "earthenbounty:bronze_ingot",
+    "count": 9
+  }
+}

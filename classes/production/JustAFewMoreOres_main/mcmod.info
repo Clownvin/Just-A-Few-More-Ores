@@ -1,0 +1,16 @@
+[
+{
+  "modid": "earthenbounty",
+  "name": "Just a Few More Ores",
+  "description": "A simple mod that makes delving into Minecraft's depth worthwhile again by adding just a few more ores.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/earthen-bounty",
+  "updateUrl": "",
+  "authorList": ["Clownvin"],
+  "credits": "Clownvin, pixelgear_",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
