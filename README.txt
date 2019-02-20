@@ -1,62 +1,29 @@
--------------------------------------------
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+Why does this mod exist? Aren't there like a million ore mods already? Yeah, there are. But, like most mods that exist, they usually add game-breaking elements that completely ruin the vanilla Minecraft experience. This mod is less a "mod" and more an "expansion," expanding on the vanilla experience without going crazy.
 
-Note also that the patches are built against "unrenamed" MCP source code (aka
-srgnames) - this means that you will not be able to read them directly against
-normal code.
+Over the years, mining in Minecraft has gotten less and less valuable. The core idea of this mod is to add a small selection of ores that add more value to mining. Each ore/resource is designed to be as vanilla-balanced as possible. 
 
-Source pack installation information:
+This mod adds:
 
-Standalone source installation
-==============================
+7 new ores (Copper, Tin, Mithril, Platinum, Black Diamond, Salt, and Sulfur)
+3 new types of Amor, Tools, and Weapons (Bronze, Mithril, and Black Diamond)
+1 new type of food, Jerky
+5 new building blocks not mentioned above
+blocks
 
-See the Forge Documentation online for more detailed instructions:
-http://mcforge.readthedocs.io/en/latest/gettingstarted/
+New ores and their uses:
+   Copper: Used with Tin to create Bronze.
+   Tin: Used with Copper to create Bronze.
+   Bronze: A combination of Copper and Tin. Used to create equipment that is worse than Iron, but better than Stone. Can substitute Iron ingots in most crafting recipes.
+   Mithril: Used to create equipment that is worse than Diamond, but better than Iron. Can substitute Iron ingots in most crafting recipes.
+   Platinum: Exceedingly rare. Used to create a Platinum Crown. More (non-armor) uses coming soon!
+   Black Diamond: Exceedingly rare. Used to create equipment that is better than Diamond (but not too much). Requires Diamonds instead of Sticks in tool recipes.
+   Salt: A new type of earthly resource that is used to create food instead of equipment. Only found near the surface. Currently you can only use it to make Jerky, but I plan to add more uses as I come up with them. Jerky is awesome, by the way :3
+   Sulfur: Only found in the nether. Used with charcoal to create gunpowder.
+ 
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+The only new recipes added (not including armor/block recipes) are:
+   Copper and Tin (one copper ore, one tin ore, shapeless):
+   Jerky (a raw meat with 4 piles of salt, shaped)
+   Gunpowder (3 sulfur, 1 charcoal, shapeless)
 
-Step 2: Once you have a command window up in the folder that the downloaded material was placed, type:
-
-Windows: "gradlew setupDecompWorkspace"
-Linux/Mac OS: "./gradlew setupDecompWorkspace"
-
-Step 3: After all that finished, you're left with a choice.
-For eclipse, run "gradlew eclipse" (./gradlew eclipse if you are on Mac/Linux)
-
-If you prefer to use IntelliJ, steps are a little different.
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Once it's finished you must close IntelliJ and run the following command:
-
-"gradlew genIntellijRuns" (./gradlew genIntellijRuns if you are on Mac/Linux)
-
-Step 4: The final step is to open Eclipse and switch your workspace to /eclipse/ (if you use IDEA, it should automatically start on your project)
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can run "gradlew --refresh-dependencies" to refresh the local cache. "gradlew clean" to reset everything {this does not affect your code} and then start the processs again.
-
-Should it still not work, 
-Refer to #ForgeGradle on EsperNet for more information about the gradle environment.
-
-Tip:
-If you do not care about seeing Minecraft's source code you can replace "setupDecompWorkspace" with one of the following:
-"setupDevWorkspace": Will patch, deobfuscate, and gather required assets to run minecraft, but will not generate human readable source code.
-"setupCIWorkspace": Same as Dev but will not download any assets. This is useful in build servers as it is the fastest because it does the least work.
-
-Tip:
-When using Decomp workspace, the Minecraft source code is NOT added to your workspace in a editable way. Minecraft is treated like a normal Library. Sources are there for documentation and research purposes and usually can be accessed under the 'referenced libraries' section of your IDE.
-
-Forge source installation
-=========================
-MinecraftForge ships with this code and installs it as part of the forge
-installation process, no further action is required on your part.
-
-LexManos' Install Video
-=======================
-https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
-
-For more details update more often refer to the Forge Forums:
-http://www.minecraftforge.net/forum/index.php/topic,14048.0.html
+Tool and armor recipes are the same as vanilla Minecraft. You can substitute Bronze and Mithril for most recipes that require Iron.
