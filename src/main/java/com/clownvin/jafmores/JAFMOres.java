@@ -45,6 +45,7 @@ public class JAFMOres
         FMLJavaModLoadingContext.get().getModEventBus().addListener(JAFMOres::setupEvent);
         ModBlocks.preInit();
         ModItems.preInit();
+        Config.init();
     }
 
     private static CompositeFeature<?, ?> getOreGenFeature(Block ore, int size, int count, int avgHeight, int spread) {
