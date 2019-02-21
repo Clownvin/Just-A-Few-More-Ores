@@ -55,16 +55,33 @@ public class JAFMOres
         return Biome.createCompositeFeature(Feature.MINABLE, new MinableConfig(BlockMatcher.forBlock(Blocks.NETHERRACK), ore.getDefaultState(), size), Biome.COUNT_RANGE, new CountRangeConfig(count, 10, 20, 128));
     }
 
+    private static boolean isNewerVersion(String v1, String v2) {
+        String[] v1s = v1.split("\\.");
+        String[] v2s = v2.split("\\.");
+        if (v2s.length > v1s.length)
+            return true;
+        System.out.println(v2s.length+", "+v1s.length);
+        for (int i = 0; i < v2s.length; i++) {
+            if (v2s[i].length() > v1s[i].length()) {
+                return true;
+            }
+            if (v2s[i].compareTo(v1s[i]) > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     @SubscribeEvent
     public static void onJoinGame(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {
         if (!Config.COMMON.showNewUpdateNotifications.get())
             return;
         IModInfo info = ModList.get().getModContainerById(MODID).get().getModInfo();
         VersionChecker.CheckResult result = VersionChecker.getResult(info);
-        if (result.target == null || result.target.getCanonical().compareTo(info.getVersion().getQualifier()) <= 0) {
+        if (result.target == null || !isNewerVersion(info.getVersion().getQualifier(), result.target.getCanonical())) {//result.target.compareTo(Loader.instance().activeModContainer().getVersion()) <= 0) {
             return;
         }
-        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", "jafmores-"+result.target.getCanonical()));
+        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", MODID+", "+MODID+"-"+result.target.toString()));
     }
 
     @SubscribeEvent
