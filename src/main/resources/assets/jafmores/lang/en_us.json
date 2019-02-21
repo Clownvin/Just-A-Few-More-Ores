@@ -52,5 +52,6 @@
 	"item.jafmores.platinum_chestplate": "Platinum Chestplate",
 	"item.jafmores.platinum_legs": "Platinum Leggings",
 	"item.jafmores.platinum_boots": "Platinum Boots",
-	"item.jafmores.sulfur_item": "Sulfur"
+	"item.jafmores.sulfur_item": "Sulfur",
+	"text.new_update_notification": "A new update is available for {0}."
 }

@@ -1,11 +1,13 @@
 package com.clownvin.jafmores;
 
 import com.clownvin.jafmores.blocks.ModBlocks;
+import com.clownvin.jafmores.config.Config;
 import com.clownvin.jafmores.items.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.init.Biomes;
 import net.minecraft.init.Blocks;
+import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.CompositeFeature;
@@ -19,10 +21,13 @@ import net.minecraft.world.gen.placement.DepthAverageConfig;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.VersionChecker;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.forgespi.language.IModInfo;
 import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod(JAFMOres.MODID)
@@ -48,6 +53,18 @@ public class JAFMOres
 
     private static CompositeFeature<?, ?> getNetherOreGenFeature(Block ore, int size, int count) {
         return Biome.createCompositeFeature(Feature.MINABLE, new MinableConfig(BlockMatcher.forBlock(Blocks.NETHERRACK), ore.getDefaultState(), size), Biome.COUNT_RANGE, new CountRangeConfig(count, 10, 20, 128));
+    }
+
+    @SubscribeEvent
+    public static void onJoinGame(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {
+        if (!Config.COMMON.showNewUpdateNotifications.get())
+            return;
+        IModInfo info = ModList.get().getModContainerById(MODID).get().getModInfo();
+        VersionChecker.CheckResult result = VersionChecker.getResult(info);
+        if (result.target == null || result.target.getCanonical().compareTo(info.getVersion().getQualifier()) <= 0) {
+            return;
+        }
+        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", "jafmores-"+result.target.getCanonical()));
     }
 
     @SubscribeEvent

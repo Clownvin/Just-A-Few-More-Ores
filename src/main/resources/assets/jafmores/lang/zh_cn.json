@@ -52,5 +52,6 @@
 	"item.jafmores.platinum_chestplate": "铂金护甲",
 	"item.jafmores.platinum_legs": "铂金护腿",
 	"item.jafmores.platinum_boots": "铂金靴子",
-	"item.jafmores.sulfur_item": "硫磺"
+	"item.jafmores.sulfur_item": "硫磺",
+	"text.new_update_notification": "可以使用新的更新 {0}"
 }

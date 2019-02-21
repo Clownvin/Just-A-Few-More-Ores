@@ -8,6 +8,7 @@ logoFile="logo.png"
     modId="jafmores"
     version="${file.jarVersion}"
     displayName="Just A Few More Ores"
+    updateJSONURL="https://raw.githubusercontent.com/Clownvin/Just-A-Few-More-Ores/1.13.2/update.json"
     authors="Clownvin"
     credits="Clownvin, pixelgear_"
     description='''
