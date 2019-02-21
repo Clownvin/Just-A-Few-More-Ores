@@ -10,11 +10,11 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(name = EarthenBounty.NAME, modid = EarthenBounty.MODID, version = EarthenBounty.VERSION)
+@Mod(name = EarthenBounty.NAME, modid = EarthenBounty.MODID, version = EarthenBounty.VERSION, updateJSON = "https://raw.githubusercontent.com/Clownvin/Just-A-Few-More-Ores/1.12.2/update.json")
 public class EarthenBounty
 {
     public static final String MODID = "earthenbounty";
-    public static final String VERSION = "2.1.2";
+    public static final String VERSION = "2.1.4";
     public static final String NAME = "Just a Few More Ores";
 
     @SidedProxy(clientSide = "com.clownvin.earthenbounty.proxy.ClientProxy", serverSide = "com.clownvin.earthenbounty.proxy.ServerProxy")
