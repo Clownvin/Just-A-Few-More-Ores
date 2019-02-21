@@ -53,4 +53,4 @@ item.platinum_legs.name=Platinum Leggings
 item.platinum_boots.name=Platinum Boots
 item.sulfur_item.name=Sulfur
 #other text
-text.new_update_notification: A new update is available for %s
+text.new_update_notification=A new update is available for %s

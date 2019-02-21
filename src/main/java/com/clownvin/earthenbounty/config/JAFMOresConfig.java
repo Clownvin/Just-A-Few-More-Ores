@@ -24,6 +24,6 @@ public class JAFMOresConfig {
     public static class General {
         @Config.Name("Show Ingame Update Notifications")
         @Config.Comment("Changes whether or not the mod will alert you ingame to new updates for your version.")
-        public boolean showUpdateNotifications = false;
+        public boolean showUpdateNotifications = true;
     }
 }

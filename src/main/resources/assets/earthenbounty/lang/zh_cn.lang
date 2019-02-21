@@ -53,4 +53,4 @@ item.platinum_legs.name=铂金护腿
 item.platinum_boots.name=铂金靴子
 item.sulfur_item.name=硫磺
 # Other text
-text.new_update_notification: 可以使用新的更新 %s
+text.new_update_notification=可以使用新的更新 %s
