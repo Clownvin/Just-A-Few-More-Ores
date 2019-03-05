@@ -7,11 +7,11 @@
   ],
   "key": {
     "s": {
-      "tag": "jafmores:dusts/salt"
+      "tag": "forge:dusts/salt"
     },
     "m": {
 
-      "tag": "jafmores:t2_meat"
+      "tag": "forge:t2_meat"
     }
   },
   "result": {

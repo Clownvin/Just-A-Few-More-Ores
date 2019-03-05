@@ -1,7 +1,7 @@
 {
   "type": "smelting",
   "ingredient": {
-    "tag": "jafmores:ores/salt"
+    "tag": "forge:ores/salt"
   },
   "result": "jafmores:salt_item",
   "experience": 0.3,

@@ -18,6 +18,8 @@ import net.minecraft.world.gen.placement.BasePlacement;
 import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraft.world.gen.placement.DepthAverage;
 import net.minecraft.world.gen.placement.DepthAverageConfig;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -57,11 +59,14 @@ public class JAFMOres
     }
 
     private static boolean isNewerVersion(String v1, String v2) {
+        if (v1 == null || v2 == null) {
+            System.err.println("Can't compare versions: local: "+v1+", remote: "+v2);
+            return false;
+        }
         String[] v1s = v1.split("\\.");
         String[] v2s = v2.split("\\.");
         if (v2s.length > v1s.length)
             return true;
-        System.out.println(v2s.length+", "+v1s.length);
         for (int i = 0; i < v2s.length; i++) {
             if (v2s[i].length() > v1s[i].length()) {
                 return true;
@@ -73,16 +78,22 @@ public class JAFMOres
         return false;
     }
 
+    @OnlyIn(Dist.CLIENT)
     @SubscribeEvent
     public static void onJoinGame(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {
         if (!Config.COMMON.showNewUpdateNotifications.get())
             return;
+        System.out.println("Checking for update on join...");
         IModInfo info = ModList.get().getModContainerById(MODID).get().getModInfo();
         VersionChecker.CheckResult result = VersionChecker.getResult(info);
-        if (result.target == null || !isNewerVersion(info.getVersion().getQualifier(), result.target.getCanonical())) {//result.target.compareTo(Loader.instance().activeModContainer().getVersion()) <= 0) {
+        if (result.target == null)
+            return;
+        System.out.println("Comparing versions "+info.getVersion().toString()+" and "+result.target.toString());
+        if (!isNewerVersion(info.getVersion().toString(), result.target.toString())) {//result.target.compareTo(Loader.instance().activeModContainer().getVersion()) <= 0) {
             return;
         }
-        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", MODID+", "+MODID+"-"+result.target.toString()));
+        System.out.println("Update available for Living Enchantment");
+        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", "Living Enchantment, version "+result.target.toString()));
     }
 
     @SubscribeEvent

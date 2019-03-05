@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "jafmores:dusts/sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "tag": "jafmores:dusts/sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "tag": "jafmores:dusts/sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
       "item": "minecraft:charcoal"

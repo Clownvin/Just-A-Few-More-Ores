@@ -13,7 +13,7 @@
       "item": "minecraft:stick"
     },
     "I": {
-      "tag": "jafmores:ingot"
+      "tag": "forge:metal_ingot"
     }
   },
   "result": {

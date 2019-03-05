@@ -1,7 +1,7 @@
 {
   "type": "smelting",
   "ingredient": {
-    "tag": "jafmores:ores/mithril"
+    "tag": "forge:ores/mithril"
   },
   "result": "jafmores:mithril_ingot",
   "experience": 0.9,

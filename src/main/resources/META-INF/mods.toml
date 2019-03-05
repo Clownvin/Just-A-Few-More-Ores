@@ -10,7 +10,7 @@ logoFile="logo.png"
     displayName="Just A Few More Ores"
     updateJSONURL="https://raw.githubusercontent.com/Clownvin/Just-A-Few-More-Ores/1.13.2/update.json"
     authors="Clownvin"
-    credits="Clownvin, pixelgear_"
+    credits="Clownvin, pixelgear_(cn_zh), extremorgp21396(pl_pl)"
     description='''
     A simple mod that makes delving into Minecraft's depth worthwhile again by adding just a few more ores.
     '''

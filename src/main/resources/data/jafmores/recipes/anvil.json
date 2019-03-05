@@ -7,10 +7,10 @@
   ],
   "key": {
     "x": {
-      "tag": "jafmores:ingot"
+      "tag": "forge:metal_ingot"
     },
     "b": {
-      "tag": "jafmores:metal_block"
+      "tag": "forge:metal_block"
     }
   },
   "result": {
