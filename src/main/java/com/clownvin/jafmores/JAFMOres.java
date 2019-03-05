@@ -92,8 +92,8 @@ public class JAFMOres
         if (!isNewerVersion(info.getVersion().toString(), result.target.toString())) {//result.target.compareTo(Loader.instance().activeModContainer().getVersion()) <= 0) {
             return;
         }
-        System.out.println("Update available for Living Enchantment");
-        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", "Living Enchantment, version "+result.target.toString()));
+        System.out.println("Update available for Just A Few More Ores");
+        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", "Just A Few More Ores, version "+result.target.toString()));
     }
 
     @SubscribeEvent
