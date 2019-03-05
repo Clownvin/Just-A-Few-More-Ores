@@ -5,10 +5,10 @@
   "description": "A simple mod that makes delving into Minecraft's depth worthwhile again by adding just a few more ores.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://minecraft.curseforge.com/projects/earthen-bounty",
+  "url": "https://minecraft.curseforge.com/projects/just-a-few-more-ores",
   "updateUrl": "",
   "authorList": ["Clownvin"],
-  "credits": "Clownvin, pixelgear_(cn_zh), extremorgp21396(pl_pl)",
+  "credits": "Clownvin, pixelgear_(cn_zh), extremorgp21396(pl_pl), martsinkevic(ru_ru)",
   "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []

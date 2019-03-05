@@ -21,7 +21,7 @@ import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 public class EarthenBounty
 {
     public static final String MODID = "earthenbounty";
-    public static final String VERSION = "2.1.5";
+    public static final String VERSION = "2.1.6";
     public static final String NAME = "Just a Few More Ores";
 
     @SidedProxy(clientSide = "com.clownvin.earthenbounty.proxy.ClientProxy", serverSide = "com.clownvin.earthenbounty.proxy.ServerProxy")
